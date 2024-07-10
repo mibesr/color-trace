@@ -91,7 +91,7 @@ def 处理命令(命令, stdinput=None, stdout_=False, stderr_=False):
     if stdout_ and not stderr_:
         return stdoutput
     elif stderr_ and not stdout_:
-        return stderr
+        return stderror
     elif stdout_ and stderr_:
         return (stdoutput, stderror)
     elif not stdout_ and not stderr_:
