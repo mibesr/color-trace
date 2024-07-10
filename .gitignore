@@ -43,3 +43,4 @@ icon*.png
 **/IRC/*
 */Impulse responses archive/*
 */temp*
+/poetry.lock
